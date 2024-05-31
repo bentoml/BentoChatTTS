@@ -1,4 +1,4 @@
-## Local Run & development
+## Get ChatTTS API server from any Linux Enviroment
 
 ```
 pip install bentoml
@@ -10,6 +10,6 @@ bentoml serve
 
 (You may need to install `libsox-dev` with your package manager first)
 
-## Get your own server
+## Get hosted server for large scale production
 
-Get your token at: https://cloud.bentoml.com/
+Get your credit at: https://cloud.bentoml.com/
