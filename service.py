@@ -52,11 +52,12 @@ class Main:
         self,
         text: str = "",
         speaker: str = "2",
-        rhythm: bool = True,
-        temperature: float = 0.3,
-        top_P: float = 0.7,
-        top_K: int = 20,
     ) -> Annotated[pathlib.Path, ContentType("audio/wav")]:
+        rhythm: bool = True
+        temperature: float = 0.3
+        top_P: float = 0.7
+        top_K: int = 20
+
         import torch
         import torchaudio
 
