@@ -50,7 +50,7 @@ class Main:
     @bentoml.api
     def tts(
         self,
-        text: str = "",
+        text: str = "PUT YOUR TEXT HERE",
         speaker: str = "2",
     ) -> Annotated[pathlib.Path, ContentType("audio/wav")]:
         rhythm: bool = True
