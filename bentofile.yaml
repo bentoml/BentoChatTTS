@@ -9,6 +9,7 @@ python:
   requirements_txt: "./requirements.txt"
   lock_packages: true
 docker:
+  python_version: 3.11
   system_packages:
     - libsox-dev
 envs:
