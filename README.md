@@ -1,6 +1,8 @@
 # BentoChatTTS
 
-[ChatTTS](https://github.com/2noise/ChatTTS) is a text-to-speech model designed specifically for dialogue scenario such as LLM assistant. 
+[ChatTTS](https://github.com/2noise/ChatTTS) is a text-to-speech model designed specifically for dialogue scenario such as LLM assistant. This example demonstrates how to serve ChatTTS with BentoML.
+
+See [here](https://docs.bentoml.com/en/latest/examples/overview.html) for a full list of BentoML example projects.
 
 ## Install Dependencies
 
